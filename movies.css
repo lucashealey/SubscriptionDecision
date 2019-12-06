@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*
+Royale With Cheese
+Final Project
+CSS for movies.html music.html shopping.html food.html
+*/
+
+/*body of html*/
+body{
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#FFFFFF;
+	font-family:"Georgia";
+}
+
+@media screen and (max-width: 480px) {
+	body{
+		margin:1%
+	}
+}
+/*formating for logos*/
+.logos{
+	text-align:center;
+	padding:1vw;
+	padding-top:2vw;
+}
+/*nav bar*/
+li{
+	display:inline;
+	padding-right: .5%;
+	font-size: 2.5vw;
+}
+nav{
+	text-align:center;
+}
+/*link disclaimer*/
+h2{
+	text-align:center;
+	color:rgb(3, 169, 244, .5);
+	font-size:1.5vw;
+}
+/*table set up*/
+table{
+	width:95%;
+	margin: auto;
+}
+/*table header format*/
+table, th{
+	 border: 1px solid #BFBFBF;
+	 border-collapse:collapse;
+	 font-size:1.25vw;
+}
+/*table data format*/	  
+table, td{
+	 border: 1px solid #BFBFBF;
+	 border-collapse:collapse;
+	 padding:3px;
+	 text-align:center;
+	 vertical-align:center;
+	 font-size:1.25vw;
+}
+/*table style*/
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #ffffff;}
+
+/*footer formating*/
+p{
+	margin-left: 2%;
+	font-size: 1.25vw;
+	text-shadow:3px 3px 8px #BFBFBF;
+}
+/*comments under tables*/
+aside{
+	margin-left: 3%;
+	font-size: 1.25vw;
+	padding-top:1.5vw;
+}
+/*footer formating*/
+footer{
+	text-align:center;
+	font-size: 2vw;
+}
+/*nav bar & footer link formating*/
+a:link,a:visited{
+	color:#03A9F4;
+	padding: 3px;
+	text-decoration: none;
+}
+/*nav bar & footer link formating*/
+a:hover,a:active{
+	color:#871185;
+	text-decoration: underline;
+}

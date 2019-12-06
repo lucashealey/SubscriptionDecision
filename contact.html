@@ -1,0 +1,83 @@
+<!--
+Royale With Cheese
+Final Project
+contact.html
+html code for the contact page
+-->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="contact.css" rel="stylesheet"/>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Movies/TV</a></li>
+			<li><a href="music.html">Music</a></li>
+			<li><a href="shopping.html">Shopping</a></li>
+			<li><a href="food.html">Food</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<h1>Meet The Developers</h1>
+	<table>
+		<tr>
+			<td><img src="lucas.jpg" alt="lucas"/></td>
+			<td>Lucas Healey<br>
+			<em>Email: </em><a href="mailto:healeyl1@ferris.edu">healeyl1@ferris.edu</a></td>
+			<td>Shania Peterson<br>
+			<em>Email: </em><a href="mailto:petes123@ferris.edu">petes123@ferris.edu</a></td>
+			<td><img src="shania.jpg" alt="shania"/></td>
+		<tr>
+	</table>
+	
+	<form>
+		<fieldset>
+			<legend>Particpate in Our Survey!</legend>
+			<p>
+				<label>Your Name: </label>
+				<input type="text" name="title" id="name" />
+			</p>
+			<p>
+				<label>Select Your Favorite Service: </label>
+				<select name="choice" id="selection">
+					<option>Select</option>
+					<optgroup label="Movies/TV">
+					<option>Netflix</option>
+					<option>Hulu</option>
+					<option>Showtime</option>
+					<option>Prime Video</option>
+					<option>Disney+</option></optgroup>
+					<optgroup label="Music">
+					<option>Spotify</option>
+					<option>Apple Music</option>
+					<option>Pandora</option></optgroup>
+					<optgroup label="Shopping">
+					<option>Amazon Prime</option>
+					<option>Shipt</option>
+					<option>Costco</option></optgroup>
+					<optgroup label="Food">
+					<option>Hello Fresh</option>
+					<option>Nature Box</option>
+					<option>Blue Apron</option></optgroup>
+				</select>
+			</p>
+			<button type="button" onclick="btnSubmit()">Submit</button><br>
+			<br><input type="checkbox" id="lucasCheck" onclick="lucasFunction()">Show Lucas' Favorite Service
+			<br><input type="checkbox" id="shaniaCheck" onclick="shaniaFunction()">Show Shania's Favorite Service<br>
+			<script src="contact.js"></script>
+			<p id="demo"></p>
+			<p id="lucasNote" style="display:none">Lucas likes Spotify!</p>
+			<p id="shaniaNote" style="display:none">Shania likes Spotify!</p>
+		</fieldset>
+	</form>
+	
+	<footer>
+		<p><a href="index.html">Home</a> | <a href="movies.html">Movies/TV</a> | <a href="music.html">Music</a> | <a href="shopping.html">Shopping</a> | <a href="food.html">Food</a> | <a href="contact.html">Contact</a></p>
+	</footer>
+</body>
+</html>

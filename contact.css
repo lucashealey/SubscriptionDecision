@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*
+Royale With Cheese
+Final Project
+CSS code for index.html
+*/
+
+/* body */
+body{
+	font-family: Georgia;
+}
+
+/* navigation bar */
+nav{
+	text-align: center;
+}
+
+/* navigation bar list */
+li{
+	display:inline;
+	padding-right: .5%;
+	font-size: 2.5vw;
+}
+
+/* portraits */
+img{
+	height: 40vw;
+	box-shadow:3px 3px 5px #BFBFBF;
+}
+
+/* table data */
+td{
+	font-size: 2vw;
+}
+
+/* footer words */
+p{
+	margin-left: 2%;
+	font-size: 1.25vw;
+	text-shadow:3px 3px 8px #BFBFBF;
+}
+
+/* footer section */
+footer{
+	text-align:center;
+	font-size: 2vw;
+}
+
+/* heading 1 */
+h1{
+	text-align:center;
+	font-size: 4vw;
+}
+
+/* contact table */
+table{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* form section */
+form{
+	background-image: linear-gradient(to bottom right, #ccefff, white);
+}
+
+/* inactive links */
+a:link,a:visited{
+	color:#03A9F4;
+	padding: 3px;
+	text-decoration: none;
+}
+
+/* active links */
+a:hover,a:active{
+	color:purple;
+	text-decoration: underline;
+}
